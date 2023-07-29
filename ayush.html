@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Design</title>
+    <script src="https://kit.fontawesome.com/ae360af17e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+    <header>
+        <div class="portfolio-container">
+            <div class="portfolio-row header-wrap">
+                <div class="brand-name">
+                    <a href="#" class="logo">Ayush Mishra</a>
+                </div>
+                <div class="hamburger">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="portfolio-navbar">
+                    <ul>
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">Resume</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="slide-carousel">
+        <div class="slider">
+            <div class="portfolio-container">
+                <div class="slider-content">
+                    <div class="slider-general">
+                        <span class="welcome-msg">
+                            Hello !
+                        </span>
+                        <div class="welcome-text">
+                            <h1>
+                                Hi, I am
+                            </h1>
+                            <div class="text-wrap">
+                                <h2 class="main-title">Ayush Mishra</h2>
+                                <h2 class="hover-title">Ayush Mishra</h2>
+                            </div>
+                            <p>
+                                Hello everyone, i am student of  b.tech (computer science engineering) at kcc institute of technology . I am very active 
+                                for doing work related to my skills.
+                            </p>
+                            <div class="download-resume">
+                                <a href="ayush resume.pdf" target="_blank">
+                                    Download CV
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-image">
+                        <div class="welcome-image">
+                            <img src="WhatsApp Image 2023-07-29 at 12.06.25.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="portfolio-container">
+            <div class="text-wrap">
+                <h2 class="main-title">More details</h2>
+                <h2 class="hover-title">More details</h2>
+            </div>
+            <div class="contact-info">
+                <span>
+                    kcc , Greater Noida
+                </span>
+                <h3>ayush231216@gmail.com</h3>
+                <a href="#">
+                    +919917818757
+                </a>
+            </div>
+            <div class="social-link">
+                <ul>
+                    <li>
+                        <a href="#">Facebook</a>
+                    </li>
+                    <li>
+                        <a href="#">Twitter</a>
+                    </li>
+                    <li>
+                        <a href="#">Instagram</a>
+                    </li>
+                    <li>
+                        <a href="#">LinkedIn</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <script>
+        const hamburger = document.querySelector(".hamburger");
+        hamburger.addEventListener("click", function () {
+            document.querySelector(".portfolio-navbar").classList.toggle("show");
+        });
+    </script>
+</body>
+
+</html>
